@@ -4,7 +4,7 @@
   <subtitle><![CDATA[写点笔记，涨涨肥]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://niumew.github.io/"/>
-  <updated>2016-02-03T07:00:02.199Z</updated>
+  <updated>2016-02-03T07:05:17.946Z</updated>
   <id>http://niumew.github.io/</id>
   
   <author>
@@ -19,14 +19,13 @@
     <link href="http://niumew.github.io/2016/02/03/%E4%BD%BF%E7%94%A8hexo%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BAblog/"/>
     <id>http://niumew.github.io/2016/02/03/使用hexo在github上搭建blog/</id>
     <published>2016-02-03T06:52:33.000Z</published>
-    <updated>2016-02-03T07:00:02.199Z</updated>
+    <updated>2016-02-03T07:05:17.946Z</updated>
     <content type="html"><![CDATA[<p><strong>前言</strong><br>安装hexo前需要先检查电脑是否安装了node、npm、git。<br>在命令行工具中，分别输入一下命令：<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git <span class="comment">--version</span></span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <p><strong>hexo简介</strong></p>
 <blockquote>
 <p><a href="https://hexo.io" target="_blank" rel="external">hexo</a>是一个基于node.js的静态博客程序，可以方便的生成静态网页并托管到github上。</p>
 </blockquote>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p><strong>hexo安装</strong><br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo -<span class="keyword">g</span> #-<span class="keyword">g</span>表示全局安装</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>hexo使用</strong><br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;foider&gt;  <span class="preprocessor">#执行init命令初始化hexo 到你指定的目录</span></span><br><span class="line">hexo generate <span class="preprocessor">#自动根据当前目录下的文件，生成静态网页。可以略写为：hexo g</span></span><br><span class="line">hexo <span class="keyword">server</span> <span class="preprocessor">#运行本地服务。可以略写为：hexo s .在浏览器中输入http://localhost:4000就可以看到效果了</span></span><br><span class="line">hexo deploy <span class="preprocessor">#部署到github上,可以略写为：hexo d</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>添加博文</strong><br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"postname"</span> <span class="preprocessor">#新建博文，其中postname是博文的题目</span></span><br></pre></td></tr></table></figure></p>
